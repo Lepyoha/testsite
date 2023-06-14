@@ -1,7 +1,5 @@
+new Swiper('.banner .swiper', {
 
-
-new Swiper('.swiper', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
     speed: 800,
@@ -11,19 +9,32 @@ new Swiper('.swiper', {
         disableOnInteraction: false,
     },
 
-    // If we need pagination
     pagination: {
-      el: '.swiper-pagination',
+      el: '.banner .swiper .swiper-pagination',
       clickable: true,
     },
   
-    // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.banner .swiper .swiper-button-next',
+      prevEl: '.banner .swiper .swiper-button-prev',
     },
   
-  });
+});
+
+new Swiper('.tariffs .swiper', {
+
+  direction: 'horizontal',
+  loop: true,
+  speed: 800,
+  slidesPerView: 3,
+  watchOverflow: true,
+
+  navigation: {
+    nextEl: '.tariffs .swiper .swiper-button-next',
+    prevEl: '.tariffs .swiper .swiper-button-prev',
+  },
+
+});
 
 function SubMenu(text) {
     document.getElementById(text).classList.add("show");
@@ -31,24 +42,24 @@ function SubMenu(text) {
   
 
 window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn1')) {
-        var dropdowns = document.getElementsByClassName("dropdown_dots_content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+  if (!event.target.matches('.dropbtn1')) {
+    var dropdowns = document.getElementsByClassName("dropdown_dots_content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
-    if (!event.target.matches('.dropbtn2')) {
-        var dropdowns = document.getElementsByClassName("dropdown_communication_content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
-        }
+  }
+  if (!event.target.matches('.dropbtn2')) {
+    var dropdowns = document.getElementsByClassName("dropdown_communication_content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
       }
+    }
+  }
 }
