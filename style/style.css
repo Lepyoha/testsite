@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
+
+body{
+    background-color: #f2f3f7;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    -webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.header_title{
+    font-family: "Audiowide";
+    font-size: 27px;
+    pointer-events: none;
+}
+
+.header_nav_item{
+    font-family:"Nunito";
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header_nav_item a,
+.tariff-type-item a{
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-transition: all .5s ease;
+          transition: all .5s ease; 
+}
+
+
+.dropbtn1{
+    font-size: 25px;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-transition: all .5s ease;
+          transition: all .5s ease; 
+}
+
+.dropbtn2,
+.dropbtn3{
+    height: 40px;
+    font-family:"Nunito";
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #5895e8;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-transition: all .5s ease;
+          transition: all .5s ease; 
+    margin-left: 25px;
+}
+
+.dropbtn2{
+    width: 210px;
+}
+
+.dropbtn3{
+    width: 100px;
+}
+
+.header_nav_item a:hover,
+.tariff-type-item a:hover,
+.dropbtn1:hover,
+.dropbtn1:focus{
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.24), 0 13px 30px 0 rgba(0,0,0,0.16);
+    color: #5895e8;
+}
+
+.dropbtn1:hover,
+.dropbtn1:focus{
+    border-radius: 10px;
+}
+
+.dropbtn2:hover,
+.dropbtn3:hover{
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.24), 0 13px 30px 0 rgba(0,0,0,0.16);
+    color: #ffffff;
+}
+
+.dropbtn2:focus{
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.24), 0 13px 30px 0 rgba(0,0,0,0.16);
+
+}
+
+
+.header_nav_item a:after,
+.tariff-type-item a:after{
+    display: block;
+    content: "";
+    height: 1.5px;
+    width: 0%;
+    background-color: #5895e8;
+    -webkit-transition: all .5s ease;
+          transition: all .5s ease; 
+}
+
+.header_nav_item a:hover::after,
+.header_nav_item a:focus::after,
+.tariff-type-item a:hover::after,
+.tariff-type-item a:focus::after{
+    width: 100%;
+}
+
+.container .header_nav ul li{
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1380px;
+    max-height: 80px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+  
+.drop_dots_menu {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown_dots_content {
+    font-family:"Nunito";
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 4;
+    border-radius: 10px;
+    transform: translate(45%, 20px);
+}
+  
+.dropdown_dots_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+  
+.drop_dots_menu a:hover {
+    background-color: #ffffff;
+}
+  
+
+.drop_communication_menu {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown_communication_content {
+    font-family:"Nunito";
+    font-size: 16px;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 4;
+    border-radius: 5px;
+    transform: translate(-12%, 10px);
+}
+  
+.dropdown_communication_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+ }
+  
+.drop_communication_menu a:hover {
+    background-color: #ffffff;
+}
+
+.show {
+    display: block;
+}
+
+.swiper {
+    margin-top: 25px;
+    width: 1380px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after{
+    color: #f2f3f7;
+}
+
+.swiper .swiper-pagination-bullet{
+    width: 12px;
+    height: 12px;
+    line-height: 20px;
+    background-color: #f2f3f7;
+}
+
+.swiper .swiper-slide .text-swiper-slide{
+    position: absolute;
+}
+
+.swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+    color: white;
+    font-family: "Unbounded";
+    padding: 0;
+    margin: 0;
+    padding-left: 170px;
+    padding-top: 120px;
+}
+
+.swiper .swiper-slide .text-swiper-slide p{
+    color: white;
+    font-family: "Nunito";
+    padding: 0;
+    margin: 0;
+    padding-left: 170px;
+    padding-top: 5px;
+}
+
+
+.swiper .swiper-slide .text-swiper-slide .more{
+    color: white;
+    font-family: "Unbounded";
+    padding-left: 170px;
+    padding-top: 160px;
+}
+
+.swiper .swiper-slide .text-swiper-slide .more span{
+    color: white;
+    font-family: "Unbounded";
+    font-size: 25px;
+}
+
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.tariffs{
+    width: 1380px;
+    height: 500px;
+    margin:0 auto;
+}
+
+.tariffs .tariff-title{
+    padding-top: 50px;
+    color: black;
+    font-family: "Unbounded";
+    font-size: 35px;
+    padding-left: 170px;
+}
+
+.tariffs .tariff-type{
+    padding-top: 0px;
+    padding-left: 170px;
+}
+
+.tariffs .tariff-type ul li{
+    list-style-type: none;
+}
+
+.tariffs .tariff-type ul{
+    padding: 0;
+    padding-left: 5px;
+}
+
+.tariff-type-item{
+    font-family:"Nunito";
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 30px;
+}

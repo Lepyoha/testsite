@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNET</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./js/script.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <img class="logo" src="./images/wind-rose-compass-svgrepo-com.svg">
+                <h1 class="header_title">
+                    VNET
+                </h1>
+                <nav class="header_nav">
+                    <ul>
+                        <li class="header_nav_item">
+                            <a href="#">
+                                ИНТЕРНЕТ И IPTV
+                            </a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="#">
+                                ОБОРУДОВАНИЕ И УСЛУГИ
+                            </a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="#">
+                                НАСТРОЙКИ
+                            </a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="#">
+                                ОПЛАТА
+                            </a>
+                        </li>
+                        <li class="header_nav_item">
+                            <a href="#">
+                                НОВОСТИ
+                            </a>
+                        </li>
+                        <div class="drop_dots_menu">
+                            <button onclick="SubMenu('threeDots')" class="dropbtn1">
+                                &#8942;
+                            </button>
+                            <div id="threeDots" class="dropdown_dots_content">
+                                <a href="#">
+                                    КОНТАКТЫ
+                                </a>
+                                <a href="#">
+                                    РАБОТА В VNET
+                                </a>
+                                <a href="#">
+                                    О НАС
+                                </a>
+                            </div>
+                        </div>
+                        <div class="drop_communication_menu">
+                            <button onclick="SubMenu('communication')" class="dropbtn2">
+                                Связаться с нами
+                            </button>
+                            <div id="communication" class="dropdown_communication_content">
+                                <a href="#">
+                                    +7(949)333-31-12
+                                </a>
+                                <a href="#">
+                                    Telegram
+                                </a>
+                                <a href="#">
+                                    Telegram Bot
+                                </a>
+                            </div>
+                        </div>
+                        <button onclick="" class="dropbtn3">
+                            ВОЙТИ
+                        </button>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="text-swiper-slide" href="#">
+                        <h2 class="text-swiper-slide-title">
+                            НОВЫЙ СПОСОБ ОПЛАТЫ
+                        </h2>
+                        <p>
+                            ОПЛАЧИВАЙТЕ ИНТЕРНЕТ УСЛУГИ <br> НЕ ВЫХОДЯ ИЗ ДОМА
+                        </p>
+                        <div class="more">
+                            <span>ПОДРОБНЕЕ</span>
+                            <span>></span>
+                        </div>
+                    </div>
+                    <img src="./images/banner1.png">
+                    <a href="#"> <span class="link"></span></a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-swiper-slide">
+                        <h2 class="text-swiper-slide-title">
+                            НОВЫЙ СПОСОБ ОПЛАТЫ
+                        </h2>
+                        <p>
+                            ОПЛАЧИВАЙТЕ ИНТЕРНЕТ УСЛУГИ <br> НЕ ВЫХОДЯ ИЗ ДОМА
+                        </p>
+                        <div class="more">
+                            <span>ПОДРОБНЕЕ</span>
+                            <span>></span>
+                        </div>
+                    </div>
+                    <img src="./images/banner1.png">
+                    <a href="#"> <span class="link"></span></a>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="tariffs">
+            <div class="tariff-title">
+                ТАРИФЫ
+            </div>
+            <div class="tariff-type">
+                <ul>
+                    <li class="tariff-type-item">
+                        <a href="#">
+                            ИНТЕРНЕТ И IPTV
+                        </a>
+                    </li>
+                    <li class="tariff-type-item">
+                        <a href="#">
+                            ОБОРУДОВАНИЕ И УСЛУГИ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
