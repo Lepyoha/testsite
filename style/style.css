@@ -290,10 +290,10 @@ header{
 .banner .swiper .swiper-slide .text-swiper-slide .more span{
     color: white;
     font-family: "Unbounded";
-    font-size: 25px;
+    font-size: 24px;
 }
 
-.link {
+.banner .swiper .swiper-slide .link {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -339,7 +339,6 @@ header{
 
 .tariffs .swiper {
     margin-top: 25px;
-    width: 1380px;
     height: 350px;
     border-radius: 10px;
 }
@@ -355,4 +354,463 @@ header{
     height: 320px;
     margin:15px auto;
     background-color:  white;
+}
+
+.banner .swiper .swiper-wrapper .swiper-slide img{
+    width: 100%;
+}
+
+.banner .swiper .swiper-button-prev,
+.tariffs .swiper .swiper-button-prev {
+    left: 5px;
+}
+
+.banner .swiper .swiper-button-next,
+.tariffs .swiper .swiper-button-next {
+    right: 5px;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .tariffs{
+        width: 1120px;
+    }
+    .banner .swiper {
+        width: 1120px;
+        height: 405px;
+    }
+
+    .banner .swiper .swiper-pagination-bullet{
+        width: 11px;
+        height: 11px;
+        line-height: 19px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 140px;
+        padding-top: 85px;
+        font-size: 22px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 140px;
+        padding-top: 4px;
+        font-size: 14px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more{
+        padding-left: 140px;
+        padding-top: 125px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 22px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 45px;
+        font-size: 33px;
+        padding-left: 140px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 140px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .tariffs{
+        width: 910px;
+    }
+    .banner .swiper {
+        width: 910px;
+        height: 330px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 10px;
+        height: 10px;
+        line-height: 18px;
+    }
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 110px;
+        padding-top: 70px;
+        font-size: 22px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 110px;
+        padding-top: 3px;
+        font-size: 13px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more{
+        padding-left: 110px;
+        padding-top: 100px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 22px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 45px;
+        font-size: 31px;
+        padding-left: 110px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 110px;
+        margin-right: 25px;
+    }
+
+    .banner .swiper .swiper-button-prev::after,
+    .banner .swiper .swiper-button-next::after,
+    .tariffs .swiper .swiper-button-prev::after,
+    .tariffs .swiper .swiper-button-next::after{
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    .tariffs{
+        width: 740px;
+    }
+    .banner .swiper {
+        width: 740px;
+        height: 270px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 9px;
+        height: 9px;
+        line-height: 17px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 80px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 80px;
+        padding-top: 3px;
+        font-size: 12px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more{
+        padding-left: 80px;
+        padding-top: 70px;
+
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 20px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 40px;
+        font-size: 29px;
+        padding-left: 80px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 80px;
+    }
+
+    .tariff-type-item{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .tariffs{
+        width: 610px;
+    }
+    .banner .swiper {
+        width: 610px;
+        height: 220px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 8px;
+        height: 8px;
+        line-height: 16px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 55px;
+        padding-top: 40px;
+        font-size: 17px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 55px;
+        padding-top: 2px;
+        font-size: 11px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more {
+        padding-left: 55px;
+        padding-top: 60px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 16px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 40px;
+        font-size: 27px;
+        padding-left: 55px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 55px;
+    }
+
+    .tariff-type-item{
+        font-size: 14px;
+        margin-right: 20px;
+    }
+
+    .banner .swiper .swiper-button-prev::after,
+    .banner .swiper .swiper-button-next::after,
+    .tariffs .swiper .swiper-button-prev::after,
+    .tariffs .swiper .swiper-button-next::after{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .tariffs{
+        width: 500px;
+    }
+    .banner .swiper {
+        width: 500px;
+        height: 180px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 7px;
+        height: 7px;
+        line-height: 15px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 45px;
+        padding-top: 25px;
+        font-size: 14px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 45px;
+        padding-top: 2px;
+        font-size: 10px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more {
+        padding-left: 45px;
+        padding-top: 55px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 14px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 35px;
+        font-size: 25px;
+        padding-left: 45px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 45px;
+    }
+
+    .tariff-type-item{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .tariffs{
+        width: 410px;
+    }
+    .banner .swiper {
+        width: 410px;
+        height: 150px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 6px;
+        height: 6px;
+        line-height: 14px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 40px;
+        padding-top: 1px;
+        font-size: 9px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more {
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 13px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 35px;
+        font-size: 23px;
+        padding-left: 40px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 40px;
+    }
+
+    .tariff-type-item{
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .banner .swiper .swiper-button-prev::after,
+    .banner .swiper .swiper-button-next::after,
+    .tariffs .swiper .swiper-button-prev::after,
+    .tariffs .swiper .swiper-button-next::after{
+        font-size: 25px;
+    }
+
+    .banner .swiper .swiper-button-prev,
+    .tariffs .swiper .swiper-button-prev {
+        left: 0px;
+    }
+    
+    .banner .swiper .swiper-button-next,
+    .tariffs .swiper .swiper-button-next {
+        right: 0px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .tariffs{
+        width: 340px;
+    }
+    .banner .swiper {
+        width: 340px;
+        height: 120px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 5px;
+        height: 5px;
+        line-height: 13px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 35px;
+        padding-top: 15px;
+        font-size: 12px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 35px;
+        padding-top: 1px;
+        font-size: 8px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more {
+        padding-left: 35px;
+        padding-top: 30px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 12px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 30px;
+        font-size: 21px;
+        padding-left: 35px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 35px;
+    }
+
+    .tariff-type-item{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .tariffs{
+        width: 290px;
+    }
+    .banner .swiper {
+        width: 290px;
+        height: 100px;
+    }
+    .banner .swiper .swiper-pagination-bullet{
+        width: 4px;
+        height: 4px;
+        line-height: 12px;
+    }
+    .banner .swiper .swiper-slide .text-swiper-slide .text-swiper-slide-title{
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 11px;
+    }
+    
+    .banner .swiper .swiper-slide .text-swiper-slide p{
+        padding-left: 30px;
+        padding-top: 0px;
+        font-size: 7px;
+    }
+    
+    
+    .banner .swiper .swiper-slide .text-swiper-slide .more {
+        padding-left: 30px;
+        padding-top: 25px;
+    }
+
+    .banner .swiper .swiper-slide .text-swiper-slide .more span{
+        font-size: 11px;
+    }
+
+    .tariffs .tariff-title{
+        padding-top: 30px;
+        font-size: 19px;
+        padding-left: 30px;
+    }
+    
+    .tariffs .tariff-type{
+        padding-left: 30px;
+    }
+
+    .tariff-type-item{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+    .banner .swiper .swiper-button-prev::after,
+    .banner .swiper .swiper-button-next::after,
+    .tariffs .swiper .swiper-button-prev::after,
+    .tariffs .swiper .swiper-button-next::after{
+        font-size: 20px;
+    }
 }
