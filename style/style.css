@@ -370,8 +370,11 @@ header{
     right: 5px;
 }
 
+.dropdown_dots_content .dropdown_dots_content-item{
+    display: none;
+}
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1430px) {
     .tariffs{
         width: 1120px;
     }
@@ -417,9 +420,28 @@ header{
     .tariffs .tariff-type{
         padding-left: 140px;
     }
+
+    .header_nav ul li:nth-child(5),
+    .header_nav ul li:nth-child(4){
+        display: none;
+    }
+
+    .header_nav_item{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .dropbtn2,
+    .dropbtn3{
+        margin-left: 15px;
+    }
+
+    .dropdown_dots_content .dropdown_dots_content-item{
+        display: block;
+    }
 }
 
-@media screen and (max-width: 1140px) {
+@media screen and (max-width: 1165px) {
     .tariffs{
         width: 910px;
     }
