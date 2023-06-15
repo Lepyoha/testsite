@@ -66,7 +66,7 @@ window.onclick = function(event) {
       }
     }
   }
-  if (!event.target.matches('.dropbtn2')) {
+  if (!event.target.matches('.dropbtn2') && !event.target.matches('.menu-images') && !event.target.matches('.drop_communication_menu span')) {
     var dropdowns = document.getElementsByClassName("dropdown_communication_content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
@@ -76,7 +76,7 @@ window.onclick = function(event) {
       }
     }
   }
-  if (!event.target.matches('.dropbtn4')) {
+  if (!event.target.matches('.dropbtn4') && !event.target.matches('.menu-images') && !event.target.matches('.drop_menu_menu span')) {
     var dropdowns = document.getElementsByClassName("dropdown_menu_content");
     var i;
     for (i = 0; i < dropdowns.length; i++) {
