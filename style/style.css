@@ -378,7 +378,7 @@ header{
 
 .communication-images,
 .menu-images,
-.drop_menu_menu span{
+.login-images{
     width: 20px;
     height: 20px;
     -webkit-touch-callout: none;
@@ -848,7 +848,7 @@ header{
         right: 0px;
     }
     .header_title{
-        margin-right: 10px;
+        margin-right: 5px;
     }
 }
 
@@ -895,15 +895,56 @@ header{
     }
     
     .tariffs .tariff-type{
-        padding-left: 35px;
+        padding-left: 25px;
     }
 
     .tariff-type-item{
         font-size: 11px;
     }
     .header_title{
+        font-size: 24px;
         margin-right: 0px;
     }
+    
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+
+    .dropbtn2,
+    .dropbtn3,
+    .dropbtn4{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+
+    .communication-images,
+    .menu-images,
+    .login-images{
+        width: 15px;
+        height: 15px;
+        padding-bottom: 2px;
+    }
+
+    .drop_menu_menu{
+        margin-left: 0px;
+    }
+
+    .menu-images{
+        padding-left: 1px;
+    }
+
+    .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff{
+        width: 280px;
+        height: 300px;
+    }
+
+    .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-title{
+        padding-top: 55px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {

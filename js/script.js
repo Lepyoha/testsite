@@ -37,7 +37,7 @@ new Swiper('.tariffs .swiper', {
   },
 
   breakpoints:{
-    360:{
+    200:{
       slidesPerView: 1,
     },
     760:{
