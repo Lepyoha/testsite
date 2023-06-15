@@ -193,7 +193,7 @@ header{
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 180px;
+    min-width: 200px;
     overflow: auto;
     -webkit-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
     -moz-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
@@ -205,7 +205,7 @@ header{
 }
 
 .dropdown_communication_content{
-    transform: translate(-10%, 10px);
+    transform: translate(-3%, 10px);
 }
 
 .dropdown_menu_content{
@@ -219,6 +219,7 @@ header{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: center;
  }
   
 .drop_dots_menu a:hover,
@@ -597,6 +598,10 @@ header{
     .dropbtn3 span,
     .dropbtn4 span{
         display: none;
+    }
+
+    .dropdown_communication_content{
+        transform: translate(39%, 20px);
     }
 
     .dropdown_menu_content{
