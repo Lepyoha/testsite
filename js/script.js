@@ -25,7 +25,7 @@ new Swiper('.banner .swiper', {
 new Swiper('.tariffs .swiper', {
 
   direction: 'horizontal',
-  loop: true,
+  loop: false,
   speed: 800,
   slidesPerView: 3,
   watchOverflow: true,
