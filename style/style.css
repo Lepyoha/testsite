@@ -901,6 +901,7 @@ header{
     .tariff-type-item{
         font-size: 11px;
     }
+
     .header_title{
         font-size: 24px;
         margin-right: 0px;
@@ -939,6 +940,10 @@ header{
     .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff{
         width: 280px;
         height: 300px;
+    }
+
+    .tariffs .swiper{
+        height: 330px;
     }
 
     .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-title{
@@ -1002,5 +1007,50 @@ header{
     .tariffs .swiper .swiper-button-prev::after,
     .tariffs .swiper .swiper-button-next::after{
         font-size: 20px;
+    }
+
+    .header_title{
+        font-size: 20px;
+        margin-right: 0px;
+    }
+    
+    .logo{
+        margin-right: 0px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .dropbtn2,
+    .dropbtn3,
+    .dropbtn4{
+        font-size: 20px;
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+
+    .communication-images,
+    .menu-images,
+    .login-images{
+        width: 12px;
+        height: 12px;
+        padding-bottom: 2.5px;
+    }
+
+    .menu-images{
+        padding-left: 0;
+    }
+
+    .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff{
+        width: 240px;
+        height: 260px;
+    }
+
+    .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-title{
+        padding-top: 40px;
+    }
+
+    .tariffs .swiper{
+        height: 290px;
     }
 }
