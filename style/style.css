@@ -48,7 +48,8 @@ header{
 }
 
 
-.dropbtn1{
+.dropbtn1,
+.dropbtn4{
     font-size: 25px;
     outline: none;
     border: none;
@@ -59,6 +60,12 @@ header{
     line-height: 1;
     -webkit-transition: all .5s ease;
           transition: all .5s ease; 
+}
+
+.dropbtn4{
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
 }
 
 .dropbtn2,
@@ -91,13 +98,18 @@ header{
 .tariff-type-item a:hover,
 .dropdown_dots_content a:hover,
 .dropdown_communication_content a:hover,
+.dropdown_menu_content a:hover,
 .dropbtn1:hover,
-.dropbtn1:focus{
+.dropbtn1:focus,
+.dropbtn4:hover,
+.dropbtn4:focus{
     color: #5895e8;
 }
 
 .dropbtn1:hover,
-.dropbtn1:focus{
+.dropbtn1:focus,
+.dropbtn4:hover,
+.dropbtn4:focus{
     border-radius: 10px;
 }
 
@@ -110,7 +122,8 @@ header{
     color: #ffffff;
 }
 
-.dropbtn2:focus{
+.dropbtn2:focus,
+.dropbtn4:focus{
     -webkit-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
     -moz-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
     box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
@@ -121,7 +134,8 @@ header{
 .header_nav_item a::after,
 .tariff-type-item a::after,
 .dropdown_dots_content a::after,
-.dropdown_communication_content a::after{
+.dropdown_communication_content a::after,
+.dropdown_menu_content a::after{
     display: block;
     content: "";
     height: 1.5px;
@@ -167,12 +181,16 @@ header{
     user-select: none;
 }
   
-.drop_dots_menu {
+.drop_dots_menu,
+.drop_communication_menu,
+.drop_menu_menu {
     position: relative;
     display: inline-block;
 }
   
-.dropdown_dots_content {
+.dropdown_dots_content,
+.dropdown_communication_content,
+.dropdown_menu_content {
     font-family:"Nunito";
     font-size: 16px;
     display: none;
@@ -188,49 +206,27 @@ header{
     border-radius: 10px;
     transform: translate(45%, 20px);
 }
-  
-.dropdown_dots_content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
- }
-  
-.drop_dots_menu a:hover {
-    background-color: #ffffff;
-}
-  
 
-.drop_communication_menu {
-    position: relative;
-    display: inline-block;
+.dropdown_communication_content{
+    transform: translate(-10%, 10px);
+}
+
+.dropdown_menu_content{
+    transform: translate(28%, 20px);
 }
   
-.dropdown_communication_content {
-    font-family:"Nunito";
-    font-size: 16px;
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    overflow: auto;
-    -webkit-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
-    -moz-box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
-    box-shadow: 0px 6px 20px -1px rgba(34, 60, 80, 0.7);
-    right: 0;
-    z-index: 4;
-    border-radius: 5px;
-    transform: translate(-12%, 10px);
-}
-  
-.dropdown_communication_content a {
+.dropdown_dots_content a,
+.dropdown_communication_content a,
+.dropdown_menu_content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
  }
   
-.drop_communication_menu a:hover {
+.drop_dots_menu a:hover,
+.drop_communication_menu a:hover,
+.drop_menu_menu a:hover {
     background-color: #ffffff;
 }
 
@@ -374,6 +370,10 @@ header{
     display: none;
 }
 
+.drop_menu_menu{
+    display: none;
+}
+
 @media screen and (max-width: 1430px) {
     .tariffs{
         width: 1120px;
@@ -437,7 +437,7 @@ header{
     }
 
     .dropdown_dots_content .dropdown_dots_content-item{
-        display: block;
+        display: inline;
     }
 }
 
@@ -492,6 +492,16 @@ header{
     .tariffs .swiper .swiper-button-prev::after,
     .tariffs .swiper .swiper-button-next::after{
         font-size: 35px;
+    }
+
+    .header_nav_item,
+    .drop_dots_menu{
+        display: none;
+    }
+
+    .drop_menu_menu{
+        display: inline;
+        margin-left: 15px;;
     }
 
 }
