@@ -20,12 +20,17 @@ body{
     padding: 0;
 }
 
-header{
+header, footer{
     display: flex;
     justify-content: center;
     position: relative;
     background-color: white;
 }
+
+footer{
+    margin-top: 20px;
+}
+
 
 .header_nav{
     width: 100%;
@@ -159,22 +164,26 @@ header{
     width: 100%;
 }
 
-.container .header_nav ul li{
+header .container .header_nav ul li{
     list-style-type: none;
 }
 
-.header{
+.header, .footer{
     display: flex;
     align-items: center;
     margin: 0;
     padding: 0;
 }
 
-.container{
+header .container, footer .container{
     max-width: 1380px;
-    max-height: 80px;
     margin: 0 auto;
     padding: 0 40px;
+}
+
+footer .container .footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo{
@@ -482,6 +491,53 @@ header{
     margin-top: 20px;
 }
 
+.footer .footer-img-and-copyright{
+    margin: auto;
+    margin-right: 780px;
+}
+
+.footer .footer-img-and-copyright img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer .footer-img-and-copyright p{
+    margin-left: 5px;
+}
+
+.footer .footer-img-and-copyright p,
+.footer .footer-info p,
+.footer .footer-info a{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+    font-size: 16px;
+}
+
+.footer .footer-img-and-copyright a{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.footer .footer-info a{
+    text-decoration: none;
+    line-height: 1;
+    -webkit-transition: all .5s ease;
+          transition: all .5s ease; 
+}
+
+.footer .footer-info h3{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Unbounded";
+
+}
+
+
 
 @media screen and (max-width: 1430px) {
     .tariffs,
@@ -496,6 +552,10 @@ header{
     
     .pluses .plus-conteiner ul{
         margin-left: 35px;
+    }
+
+    .footer .footer-img-and-copyright{
+        margin-right: 510px;
     }
 
     .banner .swiper {
@@ -597,6 +657,10 @@ header{
         height: 695px;
     }
 
+    .footer .footer-img-and-copyright{
+        margin-right: 280px;
+    }
+
     .banner .swiper {
         width: 910px;
         height: 330px;
@@ -672,6 +736,25 @@ header{
     .pluses,
     .pluses .plus {
         width: 740px;
+    }
+
+    .footer .footer-img-and-copyright{
+        margin-right: 220px;
+    }
+
+    footer .container .footer .footer-info h3{
+        font-size: 16px;
+    }
+
+    .footer .footer-img-and-copyright img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer .footer-img-and-copyright p,
+    .footer .footer-info p,
+    .footer .footer-info a{
+        font-size: 13px;
     }
 
     .banner .swiper {
@@ -859,6 +942,24 @@ header{
         height: 620px;
     }
 
+    .footer .footer-img-and-copyright{
+        margin-right: 130px;
+    }
+
+    footer .container .footer .footer-info h3{
+        font-size: 15px;
+    }
+
+    .footer .footer-img-and-copyright img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer .footer-img-and-copyright p,
+    .footer .footer-info p,
+    .footer .footer-info a{
+        font-size: 12px;
+    }
 
 }
 
@@ -947,6 +1048,25 @@ header{
 
     .pluses .plus{
         height: 570px;
+    }
+
+    .footer .footer-img-and-copyright{
+        margin-right: 70px;
+    }
+
+    footer .container .footer .footer-info h3{
+        font-size: 14px;
+    }
+
+    .footer .footer-img-and-copyright img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer .footer-img-and-copyright p,
+    .footer .footer-info p,
+    .footer .footer-info a{
+        font-size: 11px;
     }
 }
 
@@ -1056,6 +1176,25 @@ header{
 
     .pluses .plus{
         height: 495px;
+    }
+
+    .footer .footer-img-and-copyright{
+        margin-right: 45px;
+    }
+
+    footer .container .footer .footer-info h3{
+        font-size: 12px;
+    }
+
+    .footer .footer-img-and-copyright img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .footer .footer-img-and-copyright p,
+    .footer .footer-info p,
+    .footer .footer-info a{
+        font-size: 9px;
     }
 
 }
@@ -1202,6 +1341,25 @@ header{
 
     .pluses .plus{
         height: 415px;
+    }
+
+    .footer .footer-img-and-copyright{
+        margin-right: 14px;
+    }
+
+    footer .container .footer .footer-info h3{
+        font-size: 10px;
+    }
+
+    .footer .footer-img-and-copyright img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer .footer-img-and-copyright p,
+    .footer .footer-info p,
+    .footer .footer-info a{
+        font-size: 8px;
     }
 
 }
