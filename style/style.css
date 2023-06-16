@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&display=swap');
 
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+    pointer-events: none;
+}
+
 body{
     background-color: #f2f3f7;
     margin: 0;
@@ -13,12 +22,6 @@ header{
     justify-content: center;
     position: relative;
     background-color: white;
-    -webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .header_nav{
@@ -175,11 +178,6 @@ header{
     width: 40px;
     height: 40px;
     margin-right: 5px;
-    pointer-events: none;
-    -moz-user-select: none; 
-    -webkit-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none;
 }
   
 .drop_dots_menu,
@@ -403,13 +401,6 @@ header{
 .login-images{
     width: 20px;
     height: 20px;
-    -webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-    pointer-events: none;
 }
 
 .dropbtn2 > img,
