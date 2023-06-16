@@ -307,7 +307,7 @@ header{
 }
 
 .tariffs .tariff-title{
-    padding-top: 50px;
+    padding-top: 35px;
     color: black;
     font-family: "Unbounded";
     font-size: 35px;
@@ -325,7 +325,7 @@ header{
 
 .tariffs .tariff-type ul{
     padding: 0;
-    padding-left: 5px;
+    margin: 0;
 }
 
 .tariff-type-item{
@@ -336,7 +336,6 @@ header{
 }
 
 .tariffs .swiper {
-    margin-top: 25px;
     height: 350px;
     border-radius: 10px;
 }
@@ -1010,14 +1009,14 @@ header{
     }
 
     .header_title{
-        font-size: 20px;
+        font-size: 18px;
         margin-right: 0px;
     }
     
     .logo{
         margin-right: 0px;
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
 
     .dropbtn2,
