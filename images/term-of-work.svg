@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    width="81.6782mm"
    height="92.21595mm"
@@ -7,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="срок.svg"
+   sodipodi:docname="term-of-work.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +26,7 @@
      showgrid="false"
      showguides="true"
      inkscape:zoom="1.6819304"
-     inkscape:cx="285.38636"
+     inkscape:cx="285.68364"
      inkscape:cy="205.716"
      inkscape:window-width="1680"
      inkscape:window-height="979"
@@ -55,19 +56,19 @@
        y="32.770229"
        id="text3572"><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
          x="40.49704"
          y="32.770229"
          id="tspan3676"><tspan
-   dx="0"
-   dy="7.71"
-   rotate="0 0 0"
-   id="tspan3784"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
+           dx="0"
+           dy="7.71"
+           rotate="0 0 0"
+           id="tspan3784"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
          sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Audiowide;-inkscape-font-specification:Audiowide;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
          x="40.49704"
-         y="67.325523"
+         y="66.728508"
          rotate="0 0 0 0"
          id="tspan3786">Лет</tspan></text>
   </g>
