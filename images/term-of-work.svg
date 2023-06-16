@@ -40,36 +40,39 @@
      inkscape:label="Слой 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:#5895e8;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
-       d="M 40.460269,90.315111 C 40.283563,90.200242 31.337779,85.159754 20.580748,79.114008 L 1.0225103,68.121759 1.0237357,45.565295 1.0249612,23.008833 21.01289,11.770501 41.00082,0.5321688 41.550522,0.81521062 C 41.852855,0.97088372 50.857744,6.0262738 61.561371,12.049413 L 81.02251,23.000572 v 22.56556 22.565564 L 77.287571,70.23542 C 53.496273,83.635973 41.148939,90.53894 40.982782,90.532164 c -0.110678,-0.0049 -0.34581,-0.102184 -0.52252,-0.217053 z"
-       id="path543" />
-    <path
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.594555"
-       d="M 103.73607,318.15895 C 78.073729,303.31984 45.037535,284.23133 30.322301,275.74003 L 3.5673295,260.30129 3.380562,217.55022 C 3.27784,194.03713 3.376362,155.53283 3.5995043,131.98512 L 4.0052141,89.171097 77.127775,46.963767 C 117.34518,23.749736 150.59215,4.6759697 151.00991,4.577618 c 0.68324,-0.1608506 34.5727,19.208044 119.2153,68.135313 l 28.83591,16.668466 v 85.505993 85.506 l -43.10523,24.87791 c -67.79028,39.12474 -104.12691,59.86783 -104.87327,59.86783 -0.37826,0 -21.6842,-12.14108 -47.34655,-26.98018 z"
-       id="path2017"
-       transform="scale(0.26458333)" />
-    <text
-       xml:space="preserve"
-       style="font-size:26.8426px;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
-       x="40.49704"
-       y="32.770229"
-       id="text3572"><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+    <g
+       id="g905">
+      <path
+         style="fill:#5895e8;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+         d="M 40.460269,90.315111 C 40.283563,90.200242 31.337779,85.159754 20.580748,79.114008 L 1.0225103,68.121759 1.0237357,45.565295 1.0249612,23.008833 21.01289,11.770501 41.00082,0.5321688 41.550522,0.81521062 C 41.852855,0.97088372 50.857744,6.0262738 61.561371,12.049413 L 81.02251,23.000572 v 22.56556 22.565564 L 77.287571,70.23542 C 53.496273,83.635973 41.148939,90.53894 40.982782,90.532164 c -0.110678,-0.0049 -0.34581,-0.102184 -0.52252,-0.217053 z"
+         id="path543" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.594555"
+         d="M 103.73607,318.15895 C 78.073729,303.31984 45.037535,284.23133 30.322301,275.74003 L 3.5673295,260.30129 3.380562,217.55022 C 3.27784,194.03713 3.376362,155.53283 3.5995043,131.98512 L 4.0052141,89.171097 77.127775,46.963767 C 117.34518,23.749736 150.59215,4.6759697 151.00991,4.577618 c 0.68324,-0.1608506 34.5727,19.208044 119.2153,68.135313 l 28.83591,16.668466 v 85.505993 85.506 l -43.10523,24.87791 c -67.79028,39.12474 -104.12691,59.86783 -104.87327,59.86783 -0.37826,0 -21.6842,-12.14108 -47.34655,-26.98018 z"
+         id="path2017"
+         transform="scale(0.26458333)" />
+      <text
+         xml:space="preserve"
+         style="font-size:26.8426px;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
          x="40.49704"
          y="32.770229"
-         id="tspan3676"><tspan
-           dx="0"
-           dy="7.71"
-           rotate="0 0 0"
-           id="tspan3784"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
-         x="40.49704"
-         y="66.728508"
-         rotate="0 0 0 0"
-         id="tspan3786">Лет</tspan></text>
+         id="text3572"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+           x="40.49704"
+           y="32.770229"
+           id="tspan3676"><tspan
+             dx="0"
+             dy="7.71"
+             rotate="0 0 0"
+             id="tspan3784"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+           x="40.49704"
+           y="66.728508"
+           rotate="0 0 0 0"
+           id="tspan3786">Лет</tspan></text>
+    </g>
   </g>
 </svg>
