@@ -595,6 +595,14 @@ header{
         display: block;
     }
 
+    .pluses{
+        height: 750px;
+    }
+
+    .pluses .plus{
+        height: 695px;
+    }
+
     .banner .swiper {
         width: 910px;
         height: 330px;
@@ -848,6 +856,16 @@ header{
     .plus-text .plus-text-name{
         font-size: 17px;
     }
+
+    .pluses{
+        height: 675px;
+    }
+
+    .pluses .plus{
+        height: 620px;
+    }
+
+
 }
 
 @media screen and (max-width: 630px) {
@@ -926,6 +944,15 @@ header{
 
     .pluses .plus-conteiner{
         height: 275px;
+        width: 500px;
+    }
+
+    .pluses{
+        height: 625px;
+    }
+
+    .pluses .plus{
+        height: 570px;
     }
 }
 
@@ -1021,6 +1048,15 @@ header{
 
     .pluses .plus-conteiner{
         height: 240px;
+        width: 410px;
+    }
+
+    .pluses{
+        height: 550px;
+    }
+
+    .pluses .plus{
+        height: 495px;
     }
 
 }
@@ -1154,10 +1190,19 @@ header{
 
     .pluses .plus-conteiner{
         height: 200px;
+        width: 340px;
     }
 
     .pluses .plus-conteiner ul{
         margin-left: 25px;
+    }
+
+    .pluses{
+        height: 495px;
+    }
+
+    .pluses .plus{
+        height: 415px;
     }
 
 }
@@ -1285,14 +1330,23 @@ header{
     }
 
     .plus-text .plus-text-name{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .pluses .plus-conteiner{
         height: 180px;
+        width: 280px;
     }
 
     .pluses .plus-conteiner ul{
         margin-left: 0px;
+    }
+
+    .pluses{
+        height: 455px;
+    }
+
+    .pluses .plus{
+        height: 380px;
     }
 }
