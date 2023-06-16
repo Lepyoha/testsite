@@ -7,14 +7,14 @@
    viewBox="0 0 81.6782 92.215951"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    sodipodi:docname="term-of-work.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview
-     id="namedview7"
+     id="namedview2754"
      pagecolor="#505050"
      bordercolor="#eeeeee"
      borderopacity="1"
@@ -24,21 +24,18 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     showguides="true"
-     inkscape:zoom="1.6819304"
-     inkscape:cx="285.68364"
-     inkscape:cy="205.716"
+     inkscape:zoom="0.67712437"
+     inkscape:cx="155.80594"
+     inkscape:cy="174.26636"
      inkscape:window-width="1680"
      inkscape:window-height="979"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="svg5" />
   <defs
      id="defs2" />
   <g
-     inkscape:label="Слой 1"
-     inkscape:groupmode="layer"
      id="layer1">
     <g
        id="g905">
@@ -57,8 +54,7 @@
          x="40.49704"
          y="32.770229"
          id="text3572"><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:BOWLER;-inkscape-font-specification:BOWLER;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
            x="40.49704"
            y="32.770229"
            id="tspan3676"><tspan
@@ -66,11 +62,10 @@
              dy="7.71"
              rotate="0 0 0"
              id="tspan3784"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
-           sodipodi:role="line"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Unbounded;-inkscape-font-specification:Unbounded;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:BOWLER;-inkscape-font-specification:BOWLER;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0">15</tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:BOWLER;-inkscape-font-specification:BOWLER;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0"
            x="40.49704"
-           y="66.728508"
+           y="67.325523"
            rotate="0 0 0 0"
            id="tspan3786">Лет</tspan></text>
     </g>
