@@ -306,12 +306,35 @@ header{
     margin:0 auto;
 }
 
-.tariffs .tariff-title{
+.pluses{
+    width: 1380px;
+    height: 500px;
+    margin:0 auto;
+}
+
+.pluses .plus-conteiner{
+    width: 625px;
+    height: 400px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pluses .plus{
+    width: 1260px;
+    height: 400px;
+}
+
+.tariffs .tariff-title,
+.pluses .plus-title{
     padding-top: 35px;
     color: black;
     font-family: "Unbounded";
     font-size: 35px;
     padding-left: 170px;
+}
+
+.pluses .plus-title{
+    padding-top: 0px;
 }
 
 .tariffs .tariff-type{
@@ -398,7 +421,9 @@ header{
   vertical-align: middle;
 }
 
-.tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-title{
+.tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-title,
+.tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-price,
+.plus-text .plus-text-name{
     color: black;
     font-family: "Unbounded";
     padding: 0;
@@ -409,13 +434,13 @@ header{
 }
 
 .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-price{
-    color: black;
-    font-family: "Unbounded";
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    margin-bottom:20px;
     padding-top: 10px;
+}
+
+.plus-text .plus-text-name{
+    text-align: left;
+    margin-bottom:0px ;
+    padding-top: 0px;
 }
 
 .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-tariff-info img{
@@ -424,9 +449,11 @@ header{
     margin-right: 5px;
 }
 
-.tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-tariff-info span{
+.tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-tariff-info span,
+.plus-text p{
     font-family:"Nunito";
-    font-size: 16px;  
+    font-size: 16px;
+    margin: 0;
 }
 
 .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-tariff-info{
@@ -438,6 +465,30 @@ header{
 .tariffs .swiper .swiper-wrapper .swiper-slide .swiper-slide-tariff .text-swiper-slide .text-swiper-slide-tariff-info > span {
   vertical-align: middle;
 }
+
+
+.plus-text{
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.plus-conteiner img{
+    width: 95px;
+    height: 105px;
+    margin-right: 5px;
+    vertical-align: middle; 
+}
+
+.plus-conteiner ul{
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.plus-content{
+    margin-top: 20px;
+}
+
 
 @media screen and (max-width: 1430px) {
     .tariffs{
