@@ -308,7 +308,7 @@ header{
 
 .pluses{
     width: 1380px;
-    height: 500px;
+    height: 450px;
     margin:0 auto;
 }
 
@@ -474,7 +474,6 @@ header{
 
 .plus-conteiner img{
     width: 95px;
-    height: 105px;
     margin-right: 5px;
     vertical-align: middle; 
 }
@@ -491,13 +490,25 @@ header{
 
 
 @media screen and (max-width: 1430px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 1120px;
     }
+
+    .pluses .plus-conteiner{
+        width: 555px;
+    }
+    
+    .pluses .plus-conteiner ul{
+        margin-left: 35px;
+    }
+
     .banner .swiper {
         width: 1120px;
         height: 405px;
     }
+
 
     .banner .swiper .swiper-pagination-bullet{
         width: 11px;
@@ -532,7 +543,7 @@ header{
         font-size: 33px;
         padding-left: 140px;
     }
-    
+        
     .tariffs .tariff-type{
         padding-left: 140px;
     }
@@ -555,12 +566,35 @@ header{
     .dropdown_dots_content .dropdown_dots_content-item{
         display: inline;
     }
+
+
+    .pluses .plus-title{
+        font-size: 33px;
+        padding-left: 140px;
+    }
+
+    .pluses .plus-conteiner img{
+        width: 85px;
+    }
+
+    .plus-text p {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1165px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 910px;
     }
+
+    .pluses .plus-conteiner{
+        width: 520px;
+        height: 330px;
+        display: block;
+    }
+
     .banner .swiper {
         width: 910px;
         height: 330px;
@@ -624,12 +658,20 @@ header{
         margin-right: 200px;
     }
 
+    .pluses .plus-title{
+        font-size: 31px;
+        padding-left: 110px;
+    }
+
 }
 
 @media screen and (max-width: 930px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 740px;
     }
+
     .banner .swiper {
         width: 740px;
         height: 270px;
@@ -665,6 +707,11 @@ header{
 
     .tariffs .tariff-title{
         padding-top: 40px;
+        font-size: 29px;
+        padding-left: 80px;
+    }
+
+    .pluses .plus-title{
         font-size: 29px;
         padding-left: 80px;
     }
@@ -708,14 +755,25 @@ header{
     }
 
     .header_title{
-        margin-right: 340px;
+        margin-right: 320px;
     }
 }
 
 @media screen and (max-width: 760px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 610px;
     }
+
+    .tariffs{
+        height: 450px;
+    }
+
+    .pluses .plus-conteiner{
+        height: 300px;
+    }
+
     .banner .swiper {
         width: 610px;
         height: 220px;
@@ -754,6 +812,11 @@ header{
         padding-left: 55px;
     }
     
+    .pluses .plus-title{
+        font-size: 27px;
+        padding-left: 55px;
+    }
+    
     .tariffs .tariff-type{
         padding-left: 55px;
     }
@@ -771,14 +834,29 @@ header{
     }
 
     .header_title{
-        margin-right: 205px;
+        margin-right: 190px;
+    }
+
+    .pluses .plus-conteiner img{
+        width: 75px;
+    }
+
+    .plus-text p {
+        font-size: 14px;
+    }
+
+    .plus-text .plus-text-name{
+        font-size: 17px;
     }
 }
 
 @media screen and (max-width: 630px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 500px;
     }
+
     .banner .swiper {
         width: 500px;
         height: 180px;
@@ -816,22 +894,45 @@ header{
         font-size: 25px;
         padding-left: 45px;
     }
+
+    .pluses .plus-title{
+        font-size: 25px;
+        padding-left: 45px;
+    }
     
     .tariffs .tariff-type{
         padding-left: 45px;
     }
 
     .tariff-type-item{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .header_title{
         margin-right: 90px;
     }
+
+    .pluses .plus-conteiner img{
+        width: 65px;
+    }
+
+    .plus-text p {
+        font-size: 14px;
+    }
+
+    .plus-text .plus-text-name{
+        font-size: 16px;
+    }
+
+    .pluses .plus-conteiner{
+        height: 275px;
+    }
 }
 
 @media screen and (max-width: 520px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus {
         width: 410px;
     }
     .banner .swiper {
@@ -871,6 +972,11 @@ header{
         font-size: 23px;
         padding-left: 40px;
     }
+
+    .pluses .plus-title{
+        font-size: 23px;
+        padding-left: 40px;
+    }
     
     .tariffs .tariff-type{
         padding-left: 40px;
@@ -900,12 +1006,36 @@ header{
     .header_title{
         margin-right: 5px;
     }
+
+    .pluses .plus-conteiner img{
+        width: 55px;
+    }
+
+    .plus-text p {
+        font-size: 12px;
+    }
+
+    .plus-text .plus-text-name{
+        font-size: 14px;
+    }
+
+    .pluses .plus-conteiner{
+        height: 240px;
+    }
+
 }
 
 @media screen and (max-width: 430px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus{
         width: 340px;
     }
+
+    .tariffs {
+        height: 425px;
+    }
+
     .banner .swiper {
         width: 340px;
         height: 120px;
@@ -940,6 +1070,16 @@ header{
 
     .tariffs .tariff-title{
         padding-top: 30px;
+        font-size: 21px;
+        padding-left: 35px;
+    }
+
+    .pluses .plus-title{
+        font-size: 21px;
+        padding-left: 35px;
+    }
+
+    .pluses .plus-title{
         font-size: 21px;
         padding-left: 35px;
     }
@@ -1000,12 +1140,39 @@ header{
         padding-top: 55px;
     }
 
+    .pluses .plus-conteiner img{
+        width: 45px;
+    }
+
+    .plus-text p {
+        font-size: 10px;
+    }
+
+    .plus-text .plus-text-name{
+        font-size: 12px;
+    }
+
+    .pluses .plus-conteiner{
+        height: 200px;
+    }
+
+    .pluses .plus-conteiner ul{
+        margin-left: 25px;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
-    .tariffs{
+    .tariffs,
+    .pluses,
+    .pluses .plus{
         width: 290px;
     }
+
+    .tariffs {
+        height: 400px;
+    }
+
     .banner .swiper {
         width: 290px;
         height: 100px;
@@ -1042,7 +1209,12 @@ header{
         font-size: 19px;
         padding-left: 30px;
     }
-    
+
+    .pluses .plus-title{
+        font-size: 19px;
+        padding-left: 30px;
+    }
+
     .tariffs .tariff-type{
         padding-left: 30px;
     }
@@ -1102,5 +1274,25 @@ header{
 
     .tariffs .swiper{
         height: 290px;
+    }
+
+    .pluses .plus-conteiner img{
+        width: 40px;
+    }
+
+    .plus-text p {
+        font-size: 9px;
+    }
+
+    .plus-text .plus-text-name{
+        font-size: 12px;
+    }
+
+    .pluses .plus-conteiner{
+        height: 180px;
+    }
+
+    .pluses .plus-conteiner ul{
+        margin-left: 0px;
     }
 }
