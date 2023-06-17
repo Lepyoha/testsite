@@ -187,9 +187,8 @@ footer .container .footer{
 }
 
 .logo{
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    width: 100px;
+    margin-bottom: 10px;
 }
   
 .drop_dots_menu,
@@ -637,6 +636,11 @@ footer .container .footer{
 }
 
 @media screen and (max-width: 1165px) {
+
+    .logo{
+        margin-right: 210px;
+    }
+    
     .tariffs,
     .pluses,
     .pluses .plus {
@@ -732,6 +736,11 @@ footer .container .footer{
 }
 
 @media screen and (max-width: 930px) {
+
+    .logo{
+        margin-right: 340px;
+    }
+
     .tariffs,
     .pluses,
     .pluses .plus {
@@ -845,6 +854,11 @@ footer .container .footer{
 }
 
 @media screen and (max-width: 760px) {
+
+    .logo{
+        margin-right: 200px;
+    }
+
     .tariffs,
     .pluses,
     .pluses .plus {
@@ -964,6 +978,11 @@ footer .container .footer{
 }
 
 @media screen and (max-width: 630px) {
+
+    .logo{
+        margin-right: 100px;
+    }
+
     .tariffs,
     .pluses,
     .pluses .plus {
@@ -1071,6 +1090,12 @@ footer .container .footer{
 }
 
 @media screen and (max-width: 520px) {
+
+    .logo{
+        width: 80px;
+        margin-bottom: 5px;
+        margin-right: 20px;
+    }
 
     .pluses .plus-conteiner ul {
         margin-left: 30px;
@@ -1272,9 +1297,11 @@ footer .container .footer{
     }
     
     .logo{
-        width: 30px;
-        height: 30px;
+        width: 60px;
+        margin-bottom: 0px;
+        margin-right: 20px;
     }
+
 
     .dropbtn2,
     .dropbtn3,
@@ -1439,9 +1466,8 @@ footer .container .footer{
     }
     
     .logo{
-        margin-right: 0px;
-        width: 18px;
-        height: 18px;
+        width: 50px;
+        margin-right: 20px;
     }
 
     .dropbtn2,
